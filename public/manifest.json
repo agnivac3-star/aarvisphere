@@ -1,0 +1,20 @@
+{
+  "id": "/",
+  "name": "Tripura Sharodotsav Parikrama",
+  "short_name": "Sharodotsav",
+  "description": "Interactive cultural guide, pandal hopper, live crowd tracker, and emergency helpline for Tripura Durga Puja.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#881337",
+  "theme_color": "#881337",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

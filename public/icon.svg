@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="crimsonBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#881337"/>
+      <stop offset="50%" stop-color="#701a2d"/>
+      <stop offset="100%" stop-color="#4c0519"/>
+    </linearGradient>
+    <linearGradient id="goldGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded squircle safe zone -->
+  <rect width="512" height="512" rx="112" fill="url(#crimsonBg)"/>
+  <!-- Circular Gold Border Pattern -->
+  <circle cx="256" cy="256" r="220" fill="none" stroke="url(#goldGlow)" stroke-width="8" stroke-dasharray="12 8" opacity="0.6"/>
+  <circle cx="256" cy="256" r="200" fill="none" stroke="#FDE68A" stroke-width="3" opacity="0.8"/>
+  <!-- Traditional Diya / Dhunuchi Base -->
+  <path d="M166 350 C166 380, 346 380, 346 350 L320 330 L192 330 Z" fill="url(#goldGlow)" stroke="#FEF3C7" stroke-width="4"/>
+  <path d="M256 370 L256 420 M216 420 L296 420" stroke="url(#goldGlow)" stroke-width="12" stroke-linecap="round"/>
+  <!-- Sacred Flame / Agni -->
+  <path d="M256 120 C220 180, 180 230, 180 280 C180 322, 214 340, 256 340 C298 340, 332 322, 332 280 C332 230, 292 180, 256 120 Z" fill="url(#goldGlow)"/>
+  <path d="M256 180 C238 220, 215 250, 215 280 C215 305, 233 320, 256 320 C279 320, 297 305, 297 280 C297 250, 274 220, 256 180 Z" fill="#FEF3C7"/>
+  <!-- Third Eye Trinetra Accent -->
+  <circle cx="256" cy="90" r="10" fill="#F59E0B"/>
+</svg>

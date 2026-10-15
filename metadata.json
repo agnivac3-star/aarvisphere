@@ -1,0 +1,8 @@
+{
+  "name": "Tripura Sharodotsav Parikrama",
+  "description": "Interactive cultural guide, pandal hopper, live crowd tracker, and emergency helpline for Durga Puja in Tripura.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
